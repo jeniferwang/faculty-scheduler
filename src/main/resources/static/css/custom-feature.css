@@ -1,0 +1,38 @@
+.header3 {
+	font-size:26px;
+}
+
+.user-list-toggle {
+	display:none;
+}
+
+#userListFunctions {
+	display:none;
+}
+
+#updateButton {
+	display:none;
+}
+
+.table-action {
+	opacity:0.1;
+}
+
+.editable-table tr:hover {
+	background-color:#088A29;
+	opacity:0.2;
+}
+
+.page-config {
+	text-align:center;
+}
+
+[contenteditable="true"]:focus {
+    background-color: white;
+}
+
+.navbar-brand-icon {
+	float:left;
+	height:60px;
+	line-height:20px;
+}
