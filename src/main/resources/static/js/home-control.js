@@ -4,7 +4,7 @@ function healthCheck() {
 	$.ajax(
 			{
 				type : "GET",
-				url  : "/cs480/ping",
+				url  : "/cs461/ping",
 				data : {
 				},
 				success : function(result) {
@@ -34,7 +34,7 @@ function deleteUser(userId) {
 	$.ajax(
 		{
 			type : "DELETE",
-			url  : "/cs480/user/" + userId,
+			url  : "/cs461/user/" + userId,
 			data : {
 			},
 			success : function(result) {
@@ -64,7 +64,7 @@ function addUser() {
 		$.ajax(
 			{
 				type : "POST",
-				url  : "/cs480/user/" + userId,
+				url  : "/cs461/user/" + userId,
 				data : {
 					"name" : userName,
 					"email" : userEmail,
@@ -105,7 +105,7 @@ function getUser(userId) {
 		$.ajax(
 				{
 					type : "GET",
-					url  : "/cs480/user/" + userId,
+					url  : "/cs461/user/" + userId,
 					data : {
 					},
 					success : function(result) {
